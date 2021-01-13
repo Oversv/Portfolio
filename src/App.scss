@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box
+}
+:root{
+  --color-primary-dark: hsl(256, 26%, 20%);
+  --color-primary-light: hsl(216, 30%, 68%);
+  --color-neutral-dark: hsl(270, 9%, 17%);
+  --color-neutral: hsl(273, 4%, 51%);
+  --color-neutral-light: hsl(0, 0%, 98%);
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+  font-size: 1.6rem;
+  font-family: 'Karla', sans-serif;
+  background-color: var(--color-neutral-light);  
+}
+
+main{
+  //margin-top: 45px;
+}
+a,
+a:visited,
+a:active{
+  color: inherit;
+}

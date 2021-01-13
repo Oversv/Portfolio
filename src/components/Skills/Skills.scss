@@ -1,0 +1,58 @@
+.skills{
+    color: var(--color-primary-dark);
+
+    &__item-title{       
+        text-align: left;
+        margin-bottom: 1rem;
+    }
+
+    &__list{
+        list-style: none;
+        padding-left: 0;
+        width: 90%;
+        max-width: 500px;    
+        margin: 0 auto;
+    }
+
+    &__item-bar{      
+    
+        height: 1rem;      
+        width: 100%;
+        border-radius: 20px;
+        background-color: var(--color-primary-light);
+        
+    }
+
+    &__item-progress-bar{
+        display: block;
+        height: 1rem;
+        border-radius: 20px;
+        width: 0;
+        // animation: progressBar 5s ease-in-out;   
+        background-color: var(--color-primary-dark);        
+    }
+}
+/** Levels **/
+/**
+    1-Beginner 10%
+    2-Elementary 20%
+    3-Pre-intermediate 30%
+    4-Low-intermediate 40%
+    5-Intermediate 50%
+    6-Upper Intermediate 60%
+    7-Pre-advanced 70%
+    8-Advanced 80%
+    9-Very Advanced 90%
+    10-Master 100%
+**/
+
+@for $i from 1 through 10 {
+    .level-#{$i}{    
+        width: #{$i}0%;                    
+    }
+}
+
+@keyframes progressBar {
+    0% { max-width: 0; }
+    100% { max-width: 100%; }
+  }

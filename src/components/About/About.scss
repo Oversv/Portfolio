@@ -1,0 +1,19 @@
+.about{
+    color: var(--color-primary-light);
+    padding-top: 45px;
+    text-align: center;
+
+
+    &__title{
+        color: var(--color-primary-dark);
+    }
+    &__info{        
+        padding: 1rem;
+    }
+    &__heading{
+        color: var(--color-primary-dark);
+    }
+    &__content{
+       text-align: left;
+    }
+}

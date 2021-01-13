@@ -1,0 +1,21 @@
+.socialNetworks{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+    &__link{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 60px;
+        width: 60px;
+        margin: 0 1rem;
+        border-radius: 50%;
+        background-color: var(--color-primary-light);
+        color: var(--color-neutral-light);
+    }
+}
+
+
+//TODO añadir efectos y una posible opción de lista en vertical, borrar clase que no se usa
