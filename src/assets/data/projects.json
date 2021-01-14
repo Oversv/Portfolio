@@ -3,10 +3,10 @@
         "id": 12441,
         "name": "Proyecto 1",
         "description": "oppp",
-        "img": "sdsd",
-        "url-code": "sds",
+        "img": "Avatar200.png",
+        "url-code": "https:www.as.com",
         "url-live" :"wses",
-        "technologies": ["HTML", "CSS"]
+        "technologies": ["HTML", "CSS", "JS"]
     },
     {
         "id": 8888,
