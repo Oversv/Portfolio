@@ -3,38 +3,33 @@ import PropTypes from 'prop-types';
 import { v4 as id } from 'uuid';
 
 const PortfolioItem = ({name, descrption, img, live, code, technologies =[]}) => {
-
-    const image = `./assets/img/${img}`
+   
+    const image = `./assets/img/portfolio/${img}`
 
     return (
-        <article> 
-            <figure>
-                <img src={image} atl="name"></img>
+        <article className="project-card"> 
+            <figure className="project-card__image-container">
+                <img src={image} atl={name}></img>
             </figure>
             <div>
-                <h4>{name}</h4>
-                <p>{descrption}</p>
-
-                <div>                    
-                    <p>Technologies</p>
-                    <ul>
-                        {
-                            technologies.map(tech => (                                
-                                <li key={id()}>
-                                   <img 
-                                        src={`./assets/img/tech-icons/${tech.toLowerCase()}.png`}
-                                        alt={tech}
-                                    />                            
-                                </li>
-                                //TODO Mirar como organizan las carpetas de las imagenes estaticas en react
-                                //TODO Añadir iconos para las tecnologías                                
-                            ))
-                        }
-                    </ul>
-                </div>
-                <div>
-                    <a href={live} target="_blank">See Website</a>
-                    <a href={code} target="_blank">See Code</a>
+                <h4 className="project-card__title">{name}</h4> 
+                <ul className="project-card__list-tech">
+                    {
+                        technologies.map(tech => (                                
+                            <li className="project-card__list-item" key={id()}>
+                                <img 
+                                    src={`./assets/img/tech-icons/${tech.toLowerCase()}.png`}
+                                    alt={tech}
+                                />                            
+                            </li>                                
+                        ))
+                    }
+                </ul>                
+                <p className="project-card__description">{descrption}</p>
+                
+                <div className="project-card__button-container">
+                    <a href={live} target="_blank" className="project-card__button">See Website</a>
+                    <a href={code} target="_blank" className="project-card__button">See Code</a>
                 </div>
             </div>
         </article>

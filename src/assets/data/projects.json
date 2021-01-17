@@ -1,9 +1,9 @@
 [
     {
         "id": 12441,
-        "name": "Proyecto 1",
-        "description": "oppp",
-        "img": "Avatar200.png",
+        "name": "Simon says",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of.",
+        "img": "simon.jpg",
         "url-code": "https:www.as.com",
         "url-live" :"wses",
         "technologies": ["HTML", "CSS", "JS"]
@@ -11,11 +11,11 @@
     {
         "id": 8888,
         "name": "Proyecto 2",
-        "description": "ZZZ",
-        "img": "sdsd",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of.",
+        "img": "simon2.jpg",
         "url-code": "sds",
         "url-live" :"wses",
-        "technologies": ["HTML", "CSS", "JS"]
+        "technologies": ["HTML","CSS", "JS", "React"]
     }
 
 ]
