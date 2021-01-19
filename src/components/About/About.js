@@ -1,5 +1,5 @@
 import React from 'react'
-// import Skills from '../Skills/Skills'
+import Skills from '../Skills/Skills'
 import './About.scss'
 
 const About = () => {
@@ -20,7 +20,7 @@ const About = () => {
                 <p>Ilerna Online</p>
             </section>
             {/* //TODO: Implementar lista de iconos */}
-            {/* <Skills /> */}
+            <Skills />
         </section>
     )
 }

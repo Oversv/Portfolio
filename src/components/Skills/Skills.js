@@ -1,35 +1,24 @@
 import React from 'react'
 import './Skills.scss'
-import SkillsItem from './SkillsItem'
 
 const Skills = () => {
+
+    const skills = ['html','css', 'js', 'pug', 'sass', 'react']
+
     return (
         <section className="skills">
-            <h3 className="skills__title">Skills</h3>
-
             <ul className="skills__list">
-                <SkillsItem 
-                    title={'HTML'}
-                    value={7}
-                />
-                <SkillsItem 
-                    title={'CSS'}
-                    value={6}
-                />
-                <SkillsItem 
-                    title={'JavaScript'}
-                    value={6}
-                />
-                <SkillsItem 
-                    title={'React'}
-                    value={6}
-                />
-                <SkillsItem 
-                    title={'SQL'}
-                    value={5}
-                />
+                {
+                    skills.map(skill => (
+                        <li className="skills__item" key={skill}>
+                            <img
+                                src={`./assets/img/tech-icons/${skill.toLowerCase()}.png`}
+                                alt={skill}
+                            />  
+                        </li>
+                    ))
+                }
             </ul>
-
         </section>
     )
 }

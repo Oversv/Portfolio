@@ -44,4 +44,4 @@ https://www.flaticon.com/packs/communications-54?word=devices
 https://www.flaticon.com/packs/devices-2?word=devices
 
 //DONE IMPORTANTE TODO hacer card portfolio usar mrmockup.com
-//TODO Añadir las personals skills con imagenes de iconos
+//DONE Añadir las personals skills con imagenes de iconos
