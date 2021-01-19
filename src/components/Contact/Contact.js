@@ -1,11 +1,15 @@
 import React from 'react'
 import '../../styles/buttons.scss'
 
-const Contact = () => {
+const Contact = ({handleClick}) => {
     return (
-        <address>
-            <a href="mailto:albertomdv@gmail.com" className="btn btn--important">Contact Me</a>
-        </address>     
+        <div>
+            <a 
+                href="mailto:albertomdv@gmail.com" 
+                className="btn btn--important"
+                onClick={handleClick}
+                >Contact Me</a>            
+        </div>     
     )
 }
 

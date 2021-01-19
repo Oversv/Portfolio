@@ -2,6 +2,7 @@ import React from 'react'
 import Burger from '../Burger/Burger'
 import PropTypes from 'prop-types';
 import './Navbar.scss'
+import Contact from '../../Contact/Contact';
 
 const Navbar = ({openMenu, setOpenMenu}) => {
 
@@ -9,7 +10,7 @@ const Navbar = ({openMenu, setOpenMenu}) => {
     const showItems = openMenu ? "navbar__item navbar__item--active" : "navbar__item"
 
     const handleClick = () =>{
-        setOpenMenu(false)
+        setOpenMenu(false)     
     }
 
     return (
@@ -26,10 +27,10 @@ const Navbar = ({openMenu, setOpenMenu}) => {
                 <li className={showItems}>
                     <a href="#portfolio" className="navbar__item-link" onClick={handleClick}>Portfolio</a>
                 </li>
-                <li className={showItems}>
-                    <a href="#" className="navbar__item-link" onClick={handleClick}>Contact</a>
+                <li className={showItems}>                    
+                    <Contact handleClick={handleClick}/>                    
                 </li>
-
+          
             </ul> 
             <Burger 
                 openMenu={openMenu}

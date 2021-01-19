@@ -2,8 +2,9 @@
     position: fixed;
     width: 100%;    
     top: 0;       
-    font-size: 1.6rem;
-    font-weight: 700;
+    padding: 2rem 0;
+    font-size: 2rem;
+    font-weight: 500;
     overflow: hidden;
     background-color: var(--color-neutral-primary);
     color: var(--color-secondary);
@@ -16,7 +17,7 @@
     
     &__logo{
         
-        
+        margin: 0;
     }
 
     &__menu{ 
@@ -24,18 +25,14 @@
         margin: 0;
         padding: 0;       
         max-height: 0;      
-        transition: all .5s ease-in-out;  
-        font-size: 2em;
-        font-weight: 500;
+        transition: all .5s ease-in-out; 
         background-color: var(--color-secondary);
         color: var(--color-neutral-primary);  
 
         @media screen and (min-width: 768px) {    
             display: flex;
             align-items: center;
-            transition: none;  
-            font-size: 1em;        
-            font-weight: 500;      
+            transition: none;        
             background-color: var(--color-neutral-primary);            
         }
 
@@ -63,7 +60,7 @@
     &__item{ 
         text-transform: uppercase;
         text-align: center;
-        padding: 1rem;
+        padding: 2rem;      
 
         &--active{
             animation: fadeIn ease 2s;

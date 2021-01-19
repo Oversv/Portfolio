@@ -1,6 +1,7 @@
 import React from 'react'
 import SocialNetworks from '../SocialNetworks/SocialNetworks'
 import avatar from '../../assets/img/Avatar200.png'
+import cv from '../../assets/data/cv.pdf'
 import './Home.scss'
 
 const Home = () => {
@@ -11,7 +12,14 @@ const Home = () => {
             <figure className="home__img-container">
                 <img className="home__img" src={avatar} alt="avatar"/>
             </figure>
-            <SocialNetworks />     
+            <SocialNetworks />   
+    
+                <a 
+                    href={cv} 
+                    className="btn btn--important"               
+                    target="_blank"
+                    rel="noreferrer" 
+                    >Resume</a>
         </section>
     )
 }
