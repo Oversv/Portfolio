@@ -4,11 +4,11 @@
   box-sizing: border-box
 }
 :root{
-  --color-primary-dark: hsl(256, 26%, 20%);
-  --color-primary-light: hsl(216, 30%, 68%);
-  --color-neutral-dark: hsl(270, 9%, 17%);
-  --color-neutral: hsl(273, 4%, 51%);
-  --color-neutral-light: hsl(0, 0%, 98%);
+  --color-primary: hsl(231, 69%, 60%);
+  --color-secondary: hsl(229, 31%, 21%); 
+  --color-neutral-primary: white;
+  --color-neutral-secondary: hsl(229, 8%, 60%);
+  --color-constrast: hsl(0, 94%, 66%);
 }
 
 html{
@@ -17,19 +17,19 @@ html{
 }
 
 body{
-  font-size: 2rem; 
-  font-family: 'Red Hat Text', sans-serif;  
+  font-size: 1.8rem;   
+  font-family: 'Rubik', sans-serif;  
   background-color: var(--color-neutral-light);  
 }
 
 main{
   //margin-top: 45px;
 }
-a,
-a:visited,
-a:active{
-  color: inherit;
-}
+// a,
+// a:visited,
+// a:active{
+//   color: inherit;
+// }
 
 ul{
   list-style: none;

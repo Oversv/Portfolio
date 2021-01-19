@@ -5,7 +5,7 @@ import './SocialNetworks.scss'
 
 const SocialNetworks = () => {
     return (
-        <IconContext.Provider value={{ size: "3rem" }}>
+        <IconContext.Provider value={{ size: "2.8rem" }}>
             <ul className="socialNetworks">         
                 <li className="socialNetworks__item">
                     <a href="https://www.linkedin.com/in/alberto-mdv/" className="socialNetworks__link" target="_blank" rel="noreferrer"><FaLinkedinIn /></a>

@@ -18,8 +18,7 @@ const About = () => {
             <section>
                 <h4 className="about__heading">Education</h4>
                 <p>Ilerna Online</p>
-            </section>
-            {/* //TODO: Implementar lista de iconos */}
+            </section>            
             <Skills />
         </section>
     )

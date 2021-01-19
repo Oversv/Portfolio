@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
 
-    &__link{
+    &__item{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -12,10 +12,12 @@
         width: 60px;
         margin: 0 1rem;
         border-radius: 50%;
-        background-color: var(--color-primary-light);
-        color: var(--color-neutral-light);
+        background-color: var(--color-primary);
+    }  
+    
+    &__link,
+    &:visited,
+    &:active{        
+        color: var(--color-neutral-primary);
     }
 }
-
-
-//TODO añadir efectos y una posible opción de lista en vertical, borrar clase que no se usa

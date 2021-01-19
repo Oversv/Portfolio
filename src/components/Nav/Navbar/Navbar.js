@@ -14,7 +14,7 @@ const Navbar = ({openMenu, setOpenMenu}) => {
 
     return (
         <nav className="navbar"> 
-            <a href="/" className="navbar__logo">LOGO</a>
+            <p className="navbar__logo">LOGO</p>
            
             <ul className={showHideMenu}>
                 <li className={showItems}>

@@ -5,8 +5,8 @@
     font-size: 1.6rem;
     font-weight: 700;
     overflow: hidden;
-    background-color: var(--color-neutral-light);
-    color: var(--color-neutral-dark);
+    background-color: var(--color-neutral-primary);
+    color: var(--color-secondary);
     
     @media screen and (min-width: 768px) {   
         display: flex;
@@ -15,9 +15,8 @@
     }
     
     &__logo{
-        display: inline-block;
-        font-size: 2rem;
-        padding: 1rem;
+        
+        
     }
 
     &__menu{ 
@@ -26,17 +25,18 @@
         padding: 0;       
         max-height: 0;      
         transition: all .5s ease-in-out;  
-        font-size: 4em;
-        background-color: var(--color-neutral-dark);
-        color: var(--color-neutral-light);  
+        font-size: 2em;
+        font-weight: 500;
+        background-color: var(--color-secondary);
+        color: var(--color-neutral-primary);  
 
         @media screen and (min-width: 768px) {    
             display: flex;
             align-items: center;
             transition: none;  
             font-size: 1em;        
-            color: var(--color-neutral-dark);
-            background-color: var(--color-neutral-light);            
+            font-weight: 500;      
+            background-color: var(--color-neutral-primary);            
         }
 
         &--active{
@@ -49,9 +49,15 @@
         }
     }
 
-    &__item-link,
-    &__logo{
-        text-decoration: none;        
+    &__item-link, 
+    &:visited, 
+    &:active{        
+        color: var(--color-neutral-primary);    
+        text-decoration: none;
+
+        @media screen and (min-width: 768px) {    
+            color: var(--color-secondary);
+        }   
     }
 
     &__item{ 
