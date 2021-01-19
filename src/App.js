@@ -4,6 +4,7 @@ import Navbar from './components/Nav/Navbar/Navbar'
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Portfolio from './components/Portfolio/Portfolio';
+import Footer from './components/Footer/Footer';
 
 function App() {
 
@@ -18,9 +19,9 @@ function App() {
       <main>
         <Home />  
         <About />
-        <Portfolio />
+        <Portfolio />        
       </main>
-
+      <Footer />
     </>
   );
 }

@@ -28,8 +28,8 @@ const PortfolioItem = ({name, descrption, img, live, code, technologies =[]}) =>
                 <p className="project-card__description">{descrption}</p>
                 
                 <div className="project-card__button-container">
-                    <a href={live} target="_blank" className="project-card__button">See Website</a>
-                    <a href={code} target="_blank" className="project-card__button">See Code</a>
+                    <a href={live} target="_blank" className="btn">See Website</a>
+                    <a href={code} target="_blank" className="btn">See Code</a>
                 </div>
             </div>
         </article>

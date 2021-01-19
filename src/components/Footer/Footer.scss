@@ -1,0 +1,13 @@
+@import '../../styles/buttons.scss';
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-secondary);
+    padding: 3rem 0;
+
+    &__contact{
+        margin: 3rem;
+        text-align: center;
+    }
+}
