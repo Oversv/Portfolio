@@ -4,9 +4,11 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    width: 100%;
     text-align: center;
-    background-color: var(--color-neutral-primary);
-    color: var(--color-secondary);
+    //background-color: var(--color-neutral-primary);
+    background-image: url('../../assets/img/bg-retro-noise.png');
+    color: var(--color-secondary);    
 
     &__name{
         font-size: 2.5rem;

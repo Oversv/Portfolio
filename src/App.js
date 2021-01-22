@@ -16,8 +16,8 @@ function App() {
         openMenu={openMenu}
         setOpenMenu={setOpenMenu}
       />
-      <main>
         <Home />  
+      <main>
         <About />
         <Portfolio />        
       </main>

@@ -1,8 +1,3 @@
-*,
-*::before,
-*::after{
-  box-sizing: border-box
-}
 :root{
   --color-primary: hsl(231, 69%, 60%);
   --color-secondary: hsl(229, 31%, 21%); 
@@ -11,20 +6,29 @@
   --color-constrast: hsl(0, 94%, 66%);
 }
 
+*,
+*::before,
+*::after{
+  box-sizing: border-box
+}
+
 html{
-    font-size: 62.5%;
-    scroll-behavior: smooth;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body{
   font-size: 1.8rem;  
   font-family: 'Rubik', sans-serif;  
-  background-color: var(--color-neutral-light); 
+  background-color: var(--color-neutral-light);   
+  background-image: url('./assets/img/patron2.png');
+  background-repeat: repeat;
 }
 
 main{
   margin: 0 auto;
   max-width: 900px;
+  background-color: var(--color-neutral-primary);
 }
 
 a{

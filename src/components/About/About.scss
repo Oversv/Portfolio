@@ -1,19 +1,22 @@
 .about{
     color: var(--color-secondary); 
     padding-top: 45px;    
-    text-align: center;    
-
+    text-align: center;
+    
     &__title{
        font-weight: 500;
        font-size: 2.5rem;
     }
+
     &__info{        
         padding: 1rem; 
     }
+
     &__heading{
         font-weight: 500;
         font-size: 2rem;
     }
+    
     &__content{
        text-align: left;
     }
