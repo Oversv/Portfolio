@@ -7,6 +7,7 @@ const Skills = () => {
 
     return (
         <section className="skills">
+            <h4 className="about__heading">My skills</h4>
             <ul className="skills__list">
                 {
                     skills.map(skill => (

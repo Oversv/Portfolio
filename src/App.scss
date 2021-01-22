@@ -19,21 +19,22 @@ html{
 body{
   font-size: 1.8rem;  
   font-family: 'Rubik', sans-serif;  
-  background-color: var(--color-neutral-light);  
+  background-color: var(--color-neutral-light); 
 }
 
 main{
-  //margin-top: 45px;
+  margin: 0 auto;
+  max-width: 900px;
 }
- a{
+
+a{
    text-decoration: none;
- }
+}
 
 ul{
   list-style: none;
 }
 img{
   max-width:100%;
-  max-height:100%;
-  
+  height: auto;  
 }

@@ -11,7 +11,7 @@ const PortfolioItem = ({name, descrption, img, live, code, technologies =[]}) =>
             <figure className="project-card__image-container">
                 <img src={image} atl={name}></img>
             </figure>
-            <div>
+            <div className="project-card__info-container">
                 <h4 className="project-card__title">{name}</h4> 
                 <ul className="project-card__list-tech">
                     {

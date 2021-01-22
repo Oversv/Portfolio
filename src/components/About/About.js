@@ -14,11 +14,7 @@ const About = () => {
                 <p className="about__content">I am willing to contribute with my ICT expertise (I have a background working with computers both hardware and software for 3 years), my hard work and my ability to work both independently and in a team. </p>
                 <p className="about__content">I learn fast and I enjoy learning from others and contributing with my problem-solving skills.</p>
             </section>
-
-            <section>
-                <h4 className="about__heading">Education</h4>
-                <p>Ilerna Online</p>
-            </section>            
+           
             <Skills />
         </section>
     )
