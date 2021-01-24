@@ -2,16 +2,16 @@
     {
         "id": 1001,
         "name": "Simon says",
-        "description": "",
+        "description": "The classic game of Simon says, in which you will have to repeat a colours pattern. It has 3 difficulty levels, in which the speed of showing the colours increases.",
         "img": "simon.jpg",
-        "url-code": "https:www.as.com",
-        "url-live" :"wses",
+        "url-code": "https://github.com/Oversv/Dorian-SimonSays",
+        "url-live" :"https://oversv.github.io/Dorian-SimonSays/",
         "technologies": ["HTML", "CSS", "JS"]
     },
     {
         "id": 1002,
         "name": "Weather App",
-        "description": "",
+        "description": "Weather App which shows the forecast for a specific area. It counts with a city browser, and you can also see the forecast for the following few days",
         "img": "weatherApp.jpg",
         "url-code": "https://github.com/Oversv/React-Weather-App",
         "url-live" :"https://oversv.github.io/React-Weather-App/",
@@ -38,7 +38,7 @@
     {
         "id": 1005,
         "name": "Film Browser",
-        "description": "",
+        "description": "In this film and series browser you can add films and series to your bookmarks, and they are kept in your local storage.",
         "img": "filmBrowser.jpg",
         "url-code": "https://github.com/Oversv/Dorian-FilmBrowser",
         "url-live": "https://oversv.github.io/Dorian-FilmBrowser/",
