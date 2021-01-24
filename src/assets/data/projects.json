@@ -1,21 +1,48 @@
 [
     {
-        "id": 12441,
+        "id": 1001,
         "name": "Simon says",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of.Lorem Ipsum is simply dummy text of background-color: violet; background-color: violetmply dummy text of.Lorem Ipsum is simply dummy text of the prin.",
+        "description": "",
         "img": "simon.jpg",
         "url-code": "https:www.as.com",
         "url-live" :"wses",
         "technologies": ["HTML", "CSS", "JS"]
     },
     {
-        "id": 8888,
-        "name": "Proyecto 2",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of.",
-        "img": "simon2.jpg",
-        "url-code": "sds",
-        "url-live" :"wses",
-        "technologies": ["HTML","CSS", "JS", "React"]
+        "id": 1002,
+        "name": "Weather App",
+        "description": "",
+        "img": "weatherApp.jpg",
+        "url-code": "https://github.com/Oversv/React-Weather-App",
+        "url-live" :"https://oversv.github.io/React-Weather-App/",
+        "technologies": ["HTML", "CSS", "styled", "JS", "React"]
+    },
+    {
+        "id": 1003,
+        "name": "Bookmark landing page",
+        "description": "This challenge will really test your layout skills. There are also areas that will require some JavaScript, such as the tabbed features section and the FAQ accordion.",
+        "img": "bookmarkLanding.jpg",
+        "url-code": "https://github.com/Oversv/FrontEndMentor-Bookmark-landing-page",
+        "url-live": "https://oversv.github.io/FrontEndMentor-Bookmark-landing-page/",
+        "technologies": ["HTML", "CSS", "sass", "pug" , "JS"]
+    },
+    {
+        "id": 1004,
+        "name": "Social media dashboard",
+        "description": "This challenge will be a perfect chance to practice your Grid skills. The color theme switcher also adds a nice additional test",
+        "img": "socialMedia.jpg",
+        "url-code": "https://github.com/Oversv/FrontEndMentor-SocialMediaDashboard",
+        "url-live": "https://oversv.github.io/FrontEndMentor-SocialMediaDashboard/",
+        "technologies": ["HTML", "CSS", "sass", "pug" , "JS"]
+    },
+    {
+        "id": 1005,
+        "name": "Film Browser",
+        "description": "",
+        "img": "filmBrowser.jpg",
+        "url-code": "https://github.com/Oversv/Dorian-FilmBrowser",
+        "url-live": "https://oversv.github.io/Dorian-FilmBrowser/",
+        "technologies": ["HTML", "CSS", "JS"]
     }
 
 ]
